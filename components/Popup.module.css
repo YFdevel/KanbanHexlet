@@ -1,0 +1,20 @@
+.popup{
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+    background-size: 100% 100%;
+    background-image: linear-gradient(to right top, #08740470, #178a1a70, #23a12c70, #2db93f70, #36d15170);
+}

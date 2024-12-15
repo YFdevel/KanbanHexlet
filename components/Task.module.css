@@ -1,0 +1,36 @@
+.item {
+    width: 250px;
+    min-height: 55px;
+    border: 1px solid #eee;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    border-radius: 15px;
+    background: #f7f6f7;
+    padding: 0.6rem 1rem;
+    color: #828282;
+    text-align: center;
+    cursor: grab;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.item:active {
+    cursor: grabbing;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.hold {
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-position: 0 0,0 0,0 0,0 0,0 0;
+    background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+    opacity: 1;
+    color: #000000;
+}
+
+.hide {
+    display: none;
+}
+
